@@ -1,3 +1,7 @@
+## Laravel 4 - simple website with backend tutorial
+
+[![Boris Strahija's tutorial on Codeforest](http://0.gravatar.com/avatar/e3b9b7a694917a826c2c513f491a94af?s=40&d=&r=G)](http://www.codeforest.net/laravel4-simple-website-with-backend-1) [Boris Strahija](http://www.codeforest.net/author/bstrahija)
+
 ## Laravel PHP Framework
 
 [![Latest Stable Version](https://poser.pugx.org/laravel/framework/version.png)](https://packagist.org/packages/laravel/framework) [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.png)](https://packagist.org/packages/laravel/framework) [![Build Status](https://travis-ci.org/laravel/framework.png)](https://travis-ci.org/laravel/framework)
