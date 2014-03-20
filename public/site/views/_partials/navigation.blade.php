@@ -6,6 +6,9 @@
       <li class="{{ (Route::is('page') and Request::segment(1) == 'contact') ? 'active' : null }}"><a href="{{ route('page', 'contact') }}">Contact</a></li>
       @if ( ! Sentry::check()) 
         <li><a href="{{ URL::route('admin.login') }}">Login</a></li>
+      @elseif (Sentry::check())
+        <li><a href="{{ URL::route('admin.pages.index') }}">Admin</a></li>
       @endif
     </ul>
   </nav>
+  
