@@ -1,5 +1,5 @@
 <?php namespace App\Models;
- 
+
 class Article extends \Eloquent {
  
     protected $table = 'articles';
@@ -8,5 +8,5 @@ class Article extends \Eloquent {
     {
         return $this->belongsTo('App\Models\User', 'user_id');
     }
- 
+
 }

@@ -9,14 +9,14 @@
                 <div class="control-group">
                         {{ Form::label('title', 'Title') }}
                         <div class="controls">
-                                {{ Form::text('title') }}
+                                {{{ Form::text('title') }}}
                         </div>
                 </div>
  
                 <div class="control-group">
                         {{ Form::label('body', 'Content') }}
                         <div class="controls">
-                                {{ Form::textarea('body') }}
+                                {{{ Form::textarea('body') }}}
                         </div>
                 </div>
  

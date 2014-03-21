@@ -2,6 +2,7 @@
  
 use App\Models\Page;
 use App\Services\Validators\PageValidator;
+use \Michelf\Markdown;
 use Input, Notification, Redirect, Sentry, Str;
  
 class PagesController extends \BaseController {

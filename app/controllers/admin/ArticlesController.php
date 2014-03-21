@@ -2,6 +2,7 @@
  
 use App\Models\Article;
 use App\Services\Validators\ArticleValidator;
+use \Michelf\Markdown;
 use Image, Input, Notification, Redirect, Sentry, Str;
  
 class ArticlesController extends \BaseController {

@@ -1,9 +1,9 @@
 @include('site::_partials/header')
- 
+<?php use \Michelf\Markdown; ?>
 <article>
   <h3>{{ $entry->title }}</h3>
   <h5>Published at {{ $entry->created_at }} &bull; by {{ $entry->author->first_name }}</h5>
-  {{ $entry->body }}
+  {{ Markdown::defaultTransform($entry->body) }}
 
 <hr>
 

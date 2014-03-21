@@ -1,5 +1,5 @@
 @extends('admin._layouts.default')
-
+<?php use \Michelf\Markdown; ?>
 @section('main')
 	<h2>Display article</h2>
 
@@ -7,7 +7,7 @@
 
 	<h3>{{ $article->title }}</h3>
 	<h5>{{ $article->created_at }}</h5>
-	{{ $article->body }}
+	{{ Markdown::defaultTransform($article->body) }}
 
 	@if ($article->image)
 		<hr>
